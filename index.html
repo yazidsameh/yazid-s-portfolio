@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hello I'm <p2> Yazid </p2>Graphic designer i create logos ,thumbnails,story cover.... </p>
+		</section>
+
+		<section class="projects" id="work">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="th.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">thumbnail createing</p>
+                    <strong class="project-title">
+                        <span>Ghosts in my room</span>
+                        <a href="https://youtu.be/8nhZEjzTMp8" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="th2.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">thumbnail createing</p>
+                    <strong class="project-title">
+                        <span>Save a cat</span>
+                        <a href="https://youtu.be/w7k7iXJPI0o" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="th3.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">thumbnail createing</p>
+                    <strong class="project-title">
+                        <span>cat vs hedgehog</span>
+                        <a href="https://youtu.be/x_haTt_IAgk" class="more-details">More details</a>
+                    </strong>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p> Yazid's Portfolio</p>
+	</footer>
+                  <form method="post" action="submit-form.php">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <input type="submit" value="Send">
+</form>
+
+</body>
+</html>

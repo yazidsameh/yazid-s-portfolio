@@ -1,0 +1,197 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set default font */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+  background-color: #000;
+}
+h1{
+  color: #f00787;
+}
+label{
+  color: #a709e0;
+}
+p{
+  color: #fff;
+}
+
+p2{
+  color: #f00787;
+
+  font-weight:800;
+}
+h2{
+  color: #f00787;
+}
+/* Style the header */
+header {
+	background-color: #000;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 2rem;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem;
+	transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Style the main content */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery a {
+	flex-basis: calc(33.33% - 1rem);
+	margin-bottom: 1rem;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+form input,
+form textarea {
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: none;
+	border-radius: 0.2rem;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	font-size: 0.8rem;
+}
+
+.projects {
+    background-color: #000016;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover {
+    color: #601cfc;
+}
